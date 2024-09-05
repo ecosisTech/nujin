@@ -1,31 +1,24 @@
-### ecosis ###
-.db
-
-### NuxtJS ###
-# Generated dirs
-dist
-.nuxt
-.nuxt-*
+# Nuxt dev/build outputs
 .output
-.gen
-
-# Node dependencies
-node_modules
-*lock.json
-yarn.lock
-
-# System files
-*.log
-
-# End of https://www.toptal.com/developers/gitignore/api/nuxtjs
-
-node_modules
-*.log*
+.data
 .nuxt
 .nitro
 .cache
-.output
-.env
 dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
 .DS_Store
-.firebase/*
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
